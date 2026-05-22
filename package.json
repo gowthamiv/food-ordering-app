@@ -1,0 +1,30 @@
+{
+  "name": "food-ordering-app",
+  "version": "1.0.0",
+  "description": "This is Food Ordering App by Gowthami",
+  "homepage": "https://github.com/gowthamiv/food-ordering-app#readme",
+  "bugs": {
+    "url": "https://github.com/gowthamiv/food-ordering-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthamiv/food-ordering-app.git"
+  },
+  "license": "ISC",
+  "author": "Gowthami",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "browsersList": [
+    "last 2 version"
+  ]
+}
